@@ -5,15 +5,16 @@ spring:
   application:
     name: product
   datasource:
-    username: postgres
-    url: jdbc:postgresql://localhost:5432/product_db
-    password: pass1234
+  datasource:
+    username: root
+    url: jdbc:mysql://localhost:3306/product_db?createDatabaseIfNotExist=true
+    password: 
   jpa:
     hibernate:
       ddl-auto: create-drop
     properties:
       hibernate:
-        dialect: org.hibernate.dialect.PostgreSQLDialect
+        dialect: org.hibernate.dialect.MySQLDialect
         format_sql: true
     show-sql: true
   boot:
