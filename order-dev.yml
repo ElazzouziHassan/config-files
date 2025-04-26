@@ -3,11 +3,11 @@ server:
 
 spring:
   application:
-    name: order
+    name: orders
   datasource:
     username: root
     url: jdbc:mysql://localhost:3306/order_db
-    password: 
+    password:
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
