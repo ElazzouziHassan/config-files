@@ -6,7 +6,7 @@ spring:
     name: customer
   datasource:
     username: root
-    url: jdbc:mysql://localhost:3306/customer_db
+    url: jdbc:mysql://localhost:3306/custmoer_db
     password:
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
